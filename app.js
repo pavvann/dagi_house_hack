@@ -8,6 +8,7 @@ var cors = require('cors'); // Import cors package
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var labelRouter = require('./routes/label'); // Import the label router
+var visionRouter = require('./routes/vision'); // Import the vision router
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api', labelRouter); // Use the label router with /api base path
+app.use('/vision', visionRouter); // Use the vision router with /vision base path
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
