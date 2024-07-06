@@ -8,7 +8,7 @@
   ],
   "action": {
     "default_popup": "popup/hello.html",
-    "default_icon": "images/majime.png"
+    "default_icon": "images/dagiExt.png"
   },
   "content_scripts": [
     {
