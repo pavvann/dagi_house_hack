@@ -1,0 +1,32 @@
+{
+  "name": "dagiEXT  Verifier Extension",
+  "description": "AI powered content verifier",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup/hello.html",
+    "default_icon": "images/majime.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content_script.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ] 
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
