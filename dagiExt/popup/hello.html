@@ -1,6 +1,95 @@
+<!DOCTYPE html>
 <html>
-  <body>
-    <h1>Hello Extensions</h1>
-    <script src="/scripts/popup.js"></script>
-  </body>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@300;400&display=swap');
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #ffffff;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border: none;
+      box-shadow: none; 
+    }
+    .container {
+      width: 500px;
+      padding: 20px;
+      border: 1px solid #1F51FF;
+      border-radius: 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #1F51FF;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 2rem;
+      margin: 0;
+      color: #1F51FF;
+    }
+    .content {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .content h2 {
+      font-size: 1.5rem;
+      margin: 0;
+      color: #000000;
+    }
+    .content .light-font {
+      font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+      font-weight: 300;
+      color: #1F51FF;
+    }
+    .footer {
+      text-align: center;
+    }
+    .footer h3 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+    .footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .footer ul li {
+      background: rgba(31, 81, 255, 0.1);
+      margin: 5px 0;
+      padding: 10px;
+      border: 1px solid #1F51FF;
+      border-radius: 0;
+      text-align: center;
+      color: #1F51FF;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>**insAIght**</h1>
+    </div>
+    <div class="content">
+      <h2>Made with &#x2764;&#xFE0F; at<br><span class="light-font">**dAGI House**</span></h2>
+    </div>
+    <div class="footer">
+      <h3>Powered by:</h3>
+      <ul>
+        <li><img src="/images/galadriel.png" height="25"></li>
+        <li><img src="/images/corcel.png" height="25"></li>
+        <li><img src="/images/mbd.png" height="25"></li>
+      </ul>
+    </div>
+  </div>
+  <script src="/scripts/popup.js"></script>
+</body>
 </html>
