@@ -1,5 +1,5 @@
 {
-  "name": "dagiEXT  Verifier Extension",
+  "name": "insAIght Verifier Extension",
   "description": "AI powered content verifier",
   "version": "1.0",
   "manifest_version": 3,
@@ -8,7 +8,7 @@
   ],
   "action": {
     "default_popup": "popup/hello.html",
-    "default_icon": "images/dagiExt.png"
+    "default_icon": "images/insAIght.png"
   },
   "content_scripts": [
     {
