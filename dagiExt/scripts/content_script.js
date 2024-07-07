@@ -2,7 +2,7 @@
 let debounceTimer;
 function debouncedDoSomething() {
     clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(doSomething, 2000);
+    debounceTimer = setTimeout(doSomething, 3000);
 }
 
 function getEmojiForLabel(label) {
@@ -87,10 +87,10 @@ function doSomething() {
     //console.log("Page loaded. Current URL:", window.location.href);
     const parts = window.location.href.split('/');
     //console.clear();
-    //console.log(parts.length);
+    console.log(parts.length);
     if (parts.length === 5) {
         let text = document.getElementsByClassName("flex flex-col whitespace-pre-wrap break-words text-lg leading-6 tracking-normal")[0].innerText
-        //console.log('text', text);
+        console.log('text', text);
 
         let globalData = null;
         let loadingInterval = null;
