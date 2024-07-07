@@ -50,7 +50,7 @@ function getEmojiForLabel(label) {
 
 const iconsAbove50 = {
     "llm_generated": "🤖",
-    "spam": "🚫",
+    "spam": "🔺",
     "sexual": "🔞",
     "hate": "😡",
     "violence": "⚔️",
@@ -63,7 +63,7 @@ const iconsAbove50 = {
 
 const iconsBelow50 = {
     "llm_generated": "👾", // Different icon or the same, depending on your preference
-    "spam": "✋",
+    "spam": "▼",
     "sexual": "🙈",
     "hate": "😠",
     "violence": "🛡️",
