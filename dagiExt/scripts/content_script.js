@@ -146,7 +146,7 @@ function doSomething() {
 
         // Data for the POST requests
         const data1 = JSON.stringify({ text_inputs: [text] });
-        sumarize = "Give me a summary of this text, just the summary in a short text form: " + "'" + text + "'"
+        sumarize = "Give me a brief and crisp summary of this text: " + "'" + text + "'"
         text = "Give me an estimate of authenticity of this post. Don't give any explanations, just a number from 1 to 100: " + "'" + text + "'"
         console.log('text', text);
         const data2 = JSON.stringify({ content: text });
